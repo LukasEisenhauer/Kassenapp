@@ -591,11 +591,26 @@
 
     // ── STATE ────────────────────────────────────────────────────────────────
     const DEFAULT_DATA = {
-      categories: ["Getränke", "Pfandrückgabe"],
+      categories: ["Ausschankwagen", "Bar", "Pfandrückgabe", "Eintritt"],
       items: [
-        { id: 1, cat: "Getränke",      name: "Bier 0,33l",     price:  2.50, pfand: 0.08, color: "#ffffff" },
-        { id: 2, cat: "Getränke",      name: "Cola / Fanta",   price:  2.00, pfand: 0.15, color: "#ffffff" },
-        { id: 3, cat: "Pfandrückgabe", name: "Flasche zurück", price: -0.08, pfand: 0.00, color: "#fee2e2" }
+        { id: 1, cat: "Ausschankwagen",      name: "Bier 0,5l",         price:  3.00, pfand: 1.00, color: "#fffb0071" },
+        { id: 2, cat: "Ausschankwagen",      name: "Weizen 0,5l",       price:  3.50, pfand: 1.00, color: "#3eba00" },
+        { id: 3, cat: "Ausschankwagen",      name: "Helles 0,5l",       price:  3.50, pfand: 1.00, color: "#00c4de" },
+        { id: 4, cat: "Ausschankwagen",      name: "Weinschorle",       price:  6.00, pfand: 1.00, color: "#11ff00" },
+        { id: 5, cat: "Ausschankwagen",      name: "Aperol",            price:  6.00, pfand: 1.00, color: "#ff8400" },
+        { id: 6, cat: "Ausschankwagen",      name: "Sati",              price:  6.00, pfand: 1.00, color: "#fb00ff" },
+        { id: 7, cat: "Ausschankwagen",      name: "Cola",              price:  2.50, pfand: 1.00, color: "#2a0000" },
+        { id: 8, cat: "Ausschankwagen",      name: "Spezi",             price:  2.50, pfand: 1.00, color: "#664d4d" },
+        { id: 9, cat: "Ausschankwagen",      name: "Fanta",             price:  2.50, pfand: 1.00, color: "#fbff00" },
+        { id: 10, cat: "Ausschankwagen",     name: "Wasser",            price:  2.50, pfand: 1.00, color: "#0004ff" },
+
+        { id: 11, cat: "Bar",                name: "Becher groß",       price:  8.00, pfand: 1.00, color: "#2000be" },
+        { id: 12, cat: "Bar",                name: "Shot/ Klopfer",     price:  1.00, pfand: 0.00, color: "#be0000" },
+        { id: 13, cat: "Bar",                name: "Flyinghirsch",      price:  4.00, pfand: 0.00, color: "#00720a" },
+
+        { id: 14, cat: "Pfandrückgabe",      name: "Pfand",             price: -1.00, pfand: 0.00, color: "#000000" },
+
+        { id: 14, cat: "Eintritt",           name: "Eintritt",          price: 5.00,  pfand: 0.00, color: "#ffffff" }
       ],
       history: []
     };
